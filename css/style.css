@@ -62,12 +62,13 @@ li a{
 /* seconda sezione */
 .section-second{
     width: 100%;
-    margin-top: 30px;
+    margin-top: 40px;
     /* for debug */
     /* background-color: blue; */
 }
 .first-row{
     width: 100%;
+    margin-bottom: 20px;
     /* for debug */
     /* height: 100px; */
     /* background-color: lightblue; */
@@ -108,16 +109,13 @@ li a{
     width: 100%;
     border-radius: 10px;
     filter: brightness(85%);
+    height: 200px;
+    object-fit: cover;
 }
 
 p{
     color: grey;
 }
-.mid-col img{
-    object-fit: cover;
-}
-
-
 
 .footer{
     width: 100%;
