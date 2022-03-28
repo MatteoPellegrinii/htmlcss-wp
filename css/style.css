@@ -42,15 +42,7 @@ li a{
 .section-first img{
     width: 100%;
     border-radius: 10px;
-}
-.back-ground{
-    position: absolute;
-    background-color: rgba(128, 128, 128, 0.301);
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    border-radius: 10px;
+    filter: brightness(85%);
 }
 .section-first .text{
     color: white;
@@ -72,28 +64,30 @@ li a{
     width: 100%;
     margin-top: 30px;
     /* for debug */
-    background-color: blue;
+    /* background-color: blue; */
 }
 .first-row{
     width: 100%;
     /* for debug */
-    height: 100px;
-    background-color: lightblue;
+    /* height: 100px; */
+    /* background-color: lightblue; */
 }
 .second-row{
     width: 100%;
-    margin-top: 20px; 
-    background-color: blue;
+    margin-top: 20px;
+    height: 30%;
+    
     /* for debug */
+    /* background-color: blue; */
     /* height: 300px; */
     /* border: solid 2px black; */
 }
-.first-col, .mid-col ,.last-col{
+.first-col, .mid-col, .last-col{
     float: left;
-    /* for debug */
     margin-bottom: 2%;
-    height: 500px;
-    background-color: lightblue;
+    /* for debug */
+    /* height: 500px;
+    background-color: lightblue; */
     /* border: solid black 2px; */
 }
 .first-col, .mid-col{
@@ -110,13 +104,24 @@ li a{
     clear: both;
     display: table;
 }
-.footer{
+.second-row img{
     width: 100%;
-    margin-top: 20px;
-    /* for debug */
-    height: 100px;
-    background-color: violet;
-    margin-bottom: 20px;
+    border-radius: 10px;
+    filter: brightness(85%);
+}
+
+p{
+    color: grey;
+}
+.mid-col img{
+    object-fit: cover;
 }
 
 
+
+.footer{
+    width: 100%;
+    margin-top: 20px; 
+    text-align: center;
+    margin-bottom: 20px;
+}
